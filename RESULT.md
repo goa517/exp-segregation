@@ -152,21 +152,29 @@ saved_files
 
 ## 五、实验记录表
 
-本次共保存了 100 次、1000 次和 10000 次模拟实验结果。
+本次共保存了 10 次、100 次、1000 次和 10000 次模拟实验结果。
 
 完整实验记录见：
 
+- [10 次实验记录 CSV](outputs/experiment_results_n10.csv)
 - [100 次实验记录 CSV](outputs/experiment_results_n100.csv)
 - [1000 次实验记录 CSV](outputs/experiment_results_n1000.csv)
 - [10000 次实验记录 CSV](outputs/experiment_results_n10000.csv)
 
 性状组合汇总表见：
 
+- [10 次性状组合汇总 CSV](outputs/phenotype_summary_n10.csv)
 - [100 次性状组合汇总 CSV](outputs/phenotype_summary_n100.csv)
 - [1000 次性状组合汇总 CSV](outputs/phenotype_summary_n1000.csv)
 - [10000 次性状组合汇总 CSV](outputs/phenotype_summary_n10000.csv)
 
-10000 次实验统计图如下：
+10 次、100 次、1000 次和 10000 次实验统计图如下：
+
+![10 次性状组合统计图](outputs/trait_combination_stats_n10.svg)
+
+![100 次性状组合统计图](outputs/trait_combination_stats_n100.svg)
+
+![1000 次性状组合统计图](outputs/trait_combination_stats_n1000.svg)
 
 ![10000 次性状组合统计图](outputs/trait_combination_stats_n10000.svg)
 
@@ -188,6 +196,7 @@ saved_files
 
 | 实验次数 | 非糯性长粒 | 非糯性短粒 | 糯性长粒 | 糯性短粒 |
 | ---: | ---: | ---: | ---: | ---: |
+| 10 | 6 | 2 | 2 | 0 |
 | 100 | 57 | 28 | 11 | 4 |
 | 1000 | 564 | 195 | 188 | 53 |
 | 10000 | 5640 | 1918 | 1829 | 613 |
@@ -225,7 +234,7 @@ saved_files
 实际结果与理论结果并不完全相同，主要原因包括：
 
 1. 随机误差：每次配子产生和受精都是随机事件，有限次数实验不一定刚好等于理论比例。
-2. 样本量影响：100 次实验中偏差较明显；1000 次和 10000 次实验中，结果逐渐接近理论比例。
+2. 样本量影响：10 次和 100 次实验中偏差较明显；1000 次和 10000 次实验中，结果逐渐接近理论比例。
 3. 理论比例是概率预测：`9:3:3:1` 是大量重复实验后的期望比例，不要求每一次小样本实验都完全符合。
 
 ### 4. 实验结论
